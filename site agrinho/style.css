@@ -1,0 +1,89 @@
+body{
+    background: linear-gradient(0deg, rgba(44,74,74,1) 0%, rgba(14,24,24,1) 50%, rgba(44,74,74,1) 100%);
+}
+.tituloFundo{
+    background-color: aquamarine;
+    border: 3px solid black;
+}
+.titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main{
+    background-color: slategrey;
+    border: 3px solid black;
+    height: 70px;
+}
+.menu{
+    position: absolute;
+    z-index: 1;
+    border: 3px solid black;
+    color: white;
+    background-color: rgb(37, 37, 37);
+}
+.menu:hover{
+    position: absolute;
+    z-index: 1;
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(211, 211, 211);
+}
+.alura{
+    position: absolute;
+    z-index: 2;
+    margin-left: 200px;
+    border: 3px solid black;
+    color: white;
+    background-color: rgb(37, 37, 37);
+}
+.alura:hover{
+    position: absolute;
+    z-index: 2;
+    margin-left: 200px;
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(211, 211, 211);
+}
+.ingles{
+    position: absolute;
+    z-index: 3;
+    margin-left: 400px;
+    border: 3px solid black;
+    color: white;
+    background-color: rgb(37, 37, 37);
+}
+.ingles:hover{
+    position: absolute;
+    z-index: 3;
+    margin-left: 400px;
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(211, 211, 211);
+}
+.redação{
+    position: absolute;
+    z-index: 4;
+    margin-left: 800px;
+    border: 3px solid black;
+    color: white;
+    background-color: rgb(37, 37, 37);
+}
+.redação:hover{
+    position: absolute;
+    z-index: 4;
+    margin-left: 800px;
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(211, 211, 211);
+}
+.escritas{
+    background-image: url(imagens/plano\ de\ fundo\ 1.jpg);
+    border: 3px solid black;
+    text-align: center;
+}
+.imagens{
+    border: 6px solid #120224;
+    transition: 5s;
+}
+.imagens:hover{
+    transform: translate(770px,0px);
+}
